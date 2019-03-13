@@ -1,18 +1,15 @@
 {
-    "name": "darcula-pycharm",
-    "displayName": "Darcula PyCharm",
-    "description": "A fork of danields761's IntelliJ-based Darcula 2.0 Python theme, modified to match PyCharm",
-    "version": "0.8.0",
+    "name": "darcula-pycharm-dimmed",
+    "displayName": "Darcula PyCharm Theme",
+    "description": "Darcula PyCharm Theme (a fork of garytyler Darcula PyCharm theme)",
+    "version": "0.1.0",
     "license": "MIT",
-    "publisher": "garytyler",
-    "preview": true,
-    "extensionDependencies": [
-        "magicstack.magicpython"
-    ],
-    "repository": "https://github.com/garytyler/darcula-pycharm",
+    "publisher": "malvery",
+    "preview": false,
+    "repository": "https://github.com/malvery/vscode-darcula-pycharm-theme",
     "icon": "images/icon.png",
     "engines": {
-        "vscode": "^1.21.0"
+        "vscode": "^1.32.0"
     },
     "categories": [
         "Themes"
@@ -20,30 +17,10 @@
     "contributes": {
         "themes": [
             {
-                "label": "Darcula Pycharm with Dark GUI",
+                "label": "Darcula Pycharm Theme (dimmed)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/darcula-pycharm-dark-gui-color-theme.json"
-            },
-            {
-                "label": "Darcula Pycharm with Light GUI",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darcula-pycharm-light-gui-color-theme.json"
-            },
-            {
-                "label": "Darcula Pycharm Neutral with Dark GUI",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darcula-pycharm-neutral-dark-gui-color-theme.json"
-            },
-            {
-                "label": "Darcula Pycharm Neutral with Light GUI",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darcula-pycharm-neutral-light-gui-color-theme.json"
+                "path": "./themes/darcula-pycharm-dimmed-theme.json"
             }
         ]
-    },
-    "__metadata": {
-        "id": "f4d7cb0b-ba14-42cd-aef4-cc006556fbb3",
-        "publisherDisplayName": "garytyler",
-        "publisherId": "d5a91575-5edb-4e0b-828d-3d1427131779"
     }
 }
